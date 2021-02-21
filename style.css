@@ -1,0 +1,30 @@
+#head {
+  width: 100%;
+  padding: 50px 0;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+html {
+  background-color: bisque;
+}
+
+ul {
+list-style-type: none;
+}
+
+.clickable-heading {
+column-count: 3;
+}
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { 
+display: table-cell;
+}
+
+input[type=number] {
+      display: none;
+    }
